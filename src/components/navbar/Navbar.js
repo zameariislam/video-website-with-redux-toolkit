@@ -3,6 +3,7 @@ import Search from './Search';
 import imageIcon from '../../assets/lws.svg'
 import searchIcon from '../../assets/search.svg'
 
+
 const Navbar = () => {
     return (
         <nav className="bg-slate-100 shadow-md">

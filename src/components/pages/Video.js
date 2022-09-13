@@ -2,13 +2,12 @@ import React from 'react';
 import VideoDescription from '../description/VideoDescription';
 import VideoPlayer from '../description/VideoPlayer';
 import RelatedVideoList from '../list/RelatedVideoList';
-import Navbar from '../navbar/Navbar';
-import Footer from '../ui/Footer';
+
 
 const Video = () => {
     return (
         <div>
-            <Navbar/>
+          
 
             <section className="pt-6 pb-20">
         <div className="mx-auto max-w-7xl px-2 pb-20 min-h-[400px]">
@@ -29,7 +28,7 @@ const Video = () => {
         </div>
     </section>
 
-            <Footer/>
+            
             
         </div>
     );
