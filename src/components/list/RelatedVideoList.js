@@ -1,12 +1,14 @@
 import React from 'react';
-import SingleVideo from './SingleVideo';
+import RelatedVideoListItem from './RelatedVideoListItem';
 
 const RelatedVideoList = () => {
     return (
         <div className="col-span-full lg:col-auto max-h-[570px] overflow-y-auto">
-                    {/* single related video  */}
-                    <SingleVideo/>
-                </div>
+        {/* single related video  */}
+        <RelatedVideoListItem/>
+
+       
+    </div>
     );
 };
 

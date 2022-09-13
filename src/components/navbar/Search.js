@@ -2,8 +2,6 @@ import React from 'react';
 
 const Search = () => {
     return (
-
-
         <form>
             <input
                 className="outline-none border-none mr-2"
@@ -12,7 +10,6 @@ const Search = () => {
                 placeholder="Search"
             />
         </form>
-
 
     );
 };

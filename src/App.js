@@ -1,17 +1,17 @@
 import React from 'react';
-import Home from './pages/Home';
-import Videos from './pages/Videos';
+import Home from './components/pages/Home';
+import Video from './components/pages/Video';
 
 
 
 
 function App() {
-  return <div>
-    {/* <Home/> */}
-    <Videos />
-
-  </div>
-
+  return (
+    <div >
+     <Video/>
+     
+    </div>
+  );
 }
 
 export default App;

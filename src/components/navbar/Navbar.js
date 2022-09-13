@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search';
-import logoImage from '../../assets/lws.svg'
-import searchImage from '../../assets/search.svg'
+import imageIcon from '../../assets/lws.svg'
+import searchIcon from '../../assets/search.svg'
 
 const Navbar = () => {
     return (
@@ -12,25 +12,23 @@ const Navbar = () => {
                 <a href="/">
                     <img
                         className="h-10"
-                        src={logoImage}
+                        src={imageIcon}
                         alt="Learn with Sumit"
                     />
                 </a>
                 <div
                     className="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200"
                 >
-                    {/* search  */}
+                    {/* <search  */}
                     <Search />
-
                     <img
                         className="inline h-4 cursor-pointer"
-                        src={searchImage}
+                        src={searchIcon}
                         alt="Search"
                     />
                 </div>
             </div>
         </nav>
-
     );
 };
 
