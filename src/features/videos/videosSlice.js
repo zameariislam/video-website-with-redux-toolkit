@@ -12,8 +12,8 @@ import { getVideos } from './videosAPI';
 
 //  create async thunk 
 export const fetchVideos=createAsyncThunk(
-    'videos/fetchVideos', async()=>{
-        const videos = await getVideos();
+    'videos/fetchVideos', async({tags,search})=>{
+        const videos = await getVideos({tags,search});
         return videos
 
 
